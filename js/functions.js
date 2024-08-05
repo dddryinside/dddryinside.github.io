@@ -52,15 +52,7 @@ $( document ).ready(function() {
   });
 
   $('.cta').click(function(){
-
-    var curActive = $('.side-nav').find('.is-active'),
-        curPos = $('.side-nav').children().index(curActive),
-        lastItem = $('.side-nav').children().length - 1,
-        nextPos = lastItem;
-
-    updateNavs(lastItem);
-    updateContent(curPos, nextPos, lastItem);
-
+    console.log("Hello world");
   });
 
   // swipe support for touch devices
